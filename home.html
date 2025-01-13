@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <div class="nav-container">
+        
+        <div class="logo">
+            <img src="images/icon.png" alt="" width="100%">
+        </div>
+        
+        <div class="text">
+            <p>Home</p>
+            <p>About</p>
+        </div>
+
+        <div class="btn">
+            <button class="logout-btn" onclick="logout()">Logout</button>
+        </div>
+
+    </div>
+
+    <div class="container">
+        <div>
+            <h1>Quizzes</h1>
+            <h4 id="sub-text"></h4>
+        </div>
+        <div class="quiz-container">
+            <div class="quiz-thumbnails">
+                <img class="thumbnail-img" src="images/java.png" alt="">
+                <p class="heading">Java Quiz</p>
+            </div>
+            <div class="quiz-thumbnails">
+                <img class="thumbnail-img" src="images/javascript.jpg" alt="">
+                <p class="heading">Javascript Quiz</p>
+            </div>
+        </div>
+    </div>
+    <script src="home.js"></script>
+</body>
+</html>

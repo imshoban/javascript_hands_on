@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="login.css">
+
+    <title>Login</title>
+</head>
+<body>
+    <div class="container flex">
+        <div class="left-section">
+            <img src="images/login-image.svg" alt="" class="login-image">
+        </div>
+        <form action=""  name="loginform"></form>
+            <div class="right-section flex-column">
+
+                    <div>
+                        <h1>Sign In</h1>
+                    </div>
+                    <div class="flex-column input-field">  
+                        <p id="error"></p>
+                        <input type="text" id="username" name="username" placeholder="Username">
+                        <input type="password" id="password"  placeholder="Password">
+                    </div>
+                    <div class="link">
+                        <label for="store"><input type="checkbox" id="store">Remember me</label>
+                        <a href="#">Forgot Password</a>
+                    </div>
+                    <div>
+                        <button class="login-btn" onclick="login()">Login</button>
+                    </div>
+                    <div class="signup">
+                        <p >Don't have an account? <a href="signup.html">Sign Up</a></p>
+                    </div>
+            
+            </div>
+        </form>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
